@@ -17,8 +17,8 @@ router.get('/submit', function(req, res, next) {
 
 var con = new mariasql({  
   host     : 'localhost',  
-  user     : 'rox',  
-  password : 'computers',  
+  user     : 'null',  
+  password : 'null',  
   db       : 'vrcworlds'  
 }); 
 
