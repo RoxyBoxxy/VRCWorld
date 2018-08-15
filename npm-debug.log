@@ -1,0 +1,246 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'mysql' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 warn package.json asap@1.0.0 No repository field.
+5 warn package.json asap@1.0.0 No license field.
+6 warn package.json css@1.0.8 No repository field.
+7 warn package.json css@1.0.8 No license field.
+8 warn package.json css-parse@1.0.4 No repository field.
+9 warn package.json css-parse@1.0.4 No license field.
+10 warn package.json css-stringify@1.0.5 No repository field.
+11 warn package.json css-stringify@1.0.5 No license field.
+12 warn package.json longest@1.0.1 license should be a valid SPDX license expression
+13 warn package.json optimist@0.3.7 license should be a valid SPDX license expression
+14 warn package.json window-size@0.1.0 No license field.
+15 verbose readDependencies using package.json deps
+16 verbose cache add [ 'mysql', null ]
+17 verbose cache add name=undefined spec="mysql" args=["mysql",null]
+18 verbose parsed url Url {
+18 verbose parsed url   protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'mysql',
+18 verbose parsed url   path: 'mysql',
+18 verbose parsed url   href: 'mysql' }
+19 silly lockFile f460c882-mysql mysql
+20 verbose lock mysql /home/pi/.npm/f460c882-mysql.lock
+21 silly lockFile f460c882-mysql mysql
+22 silly lockFile f460c882-mysql mysql
+23 verbose addNamed [ 'mysql', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile 6df78a86-mysql mysql@
+26 verbose lock mysql@ /home/pi/.npm/6df78a86-mysql.lock
+27 silly addNameRange { name: 'mysql', range: '*', hasData: false }
+28 verbose request where is /mysql
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 587407bcd8fafb4a
+31 verbose url raw /mysql
+32 verbose url resolving [ 'https://registry.npmjs.org/', './mysql' ]
+33 verbose url resolved https://registry.npmjs.org/mysql
+34 verbose request where is https://registry.npmjs.org/mysql
+35 info trying registry request attempt 1 at 20:10:05
+36 http GET https://registry.npmjs.org/mysql
+37 http 200 https://registry.npmjs.org/mysql
+38 silly registry.get cb [ 200,
+38 silly registry.get   { date: 'Thu, 09 Aug 2018 20:10:06 GMT',
+38 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+38 silly registry.get     'transfer-encoding': 'chunked',
+38 silly registry.get     connection: 'close',
+38 silly registry.get     'set-cookie':
+38 silly registry.get      [ '__cfduid=d307298a30f643d3c8d93a574f9e02bff1533845406; expires=Fri, 09-Aug-19 20:10:06 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+38 silly registry.get     'cache-control': 'max-age=300',
+38 silly registry.get     'cf-cache-status': 'HIT',
+38 silly registry.get     'cf-ray': '447cdd40e8706b73-LHR',
+38 silly registry.get     etag: 'W/"ae241d81d23edd3e6013612d97c4b7a1"',
+38 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+38 silly registry.get     'last-modified': 'Wed, 18 Jul 2018 05:08:11 GMT',
+38 silly registry.get     vary: 'accept-encoding, accept',
+38 silly registry.get     server: 'cloudflare',
+38 silly registry.get     'content-encoding': 'gzip' } ]
+39 silly addNameRange number 2 { name: 'mysql', range: '*', hasData: true }
+40 silly addNameRange versions [ 'mysql',
+40 silly addNameRange   [ '0.1.0',
+40 silly addNameRange     '0.2.0',
+40 silly addNameRange     '0.3.0',
+40 silly addNameRange     '0.4.0',
+40 silly addNameRange     '0.5.0',
+40 silly addNameRange     '0.6.0',
+40 silly addNameRange     '0.7.0',
+40 silly addNameRange     '0.8.0',
+40 silly addNameRange     '0.9.0',
+40 silly addNameRange     '0.9.1',
+40 silly addNameRange     '0.9.2',
+40 silly addNameRange     '0.9.3',
+40 silly addNameRange     '0.9.4',
+40 silly addNameRange     '0.9.5',
+40 silly addNameRange     '0.9.6',
+40 silly addNameRange     '2.0.0-alpha',
+40 silly addNameRange     '2.0.0-alpha2',
+40 silly addNameRange     '2.0.0-alpha3',
+40 silly addNameRange     '2.0.0-alpha4',
+40 silly addNameRange     '2.0.0-alpha5',
+40 silly addNameRange     '2.0.0-alpha6',
+40 silly addNameRange     '2.0.0-alpha7',
+40 silly addNameRange     '2.0.0-alpha8',
+40 silly addNameRange     '2.0.0-alpha9',
+40 silly addNameRange     '2.0.0-rc1',
+40 silly addNameRange     '2.0.0-rc2',
+40 silly addNameRange     '2.0.0',
+40 silly addNameRange     '2.0.1',
+40 silly addNameRange     '2.1.0',
+40 silly addNameRange     '2.1.1',
+40 silly addNameRange     '2.2.0',
+40 silly addNameRange     '2.3.0',
+40 silly addNameRange     '2.3.1',
+40 silly addNameRange     '2.3.2',
+40 silly addNameRange     '2.4.0',
+40 silly addNameRange     '2.4.1',
+40 silly addNameRange     '2.4.2',
+40 silly addNameRange     '2.4.3',
+40 silly addNameRange     '2.5.0',
+40 silly addNameRange     '2.5.1',
+40 silly addNameRange     '2.5.2',
+40 silly addNameRange     '2.5.3',
+40 silly addNameRange     '2.5.4',
+40 silly addNameRange     '2.5.5',
+40 silly addNameRange     '2.6.0',
+40 silly addNameRange     '2.6.1',
+40 silly addNameRange     '2.6.2',
+40 silly addNameRange     '2.7.0',
+40 silly addNameRange     '2.8.0',
+40 silly addNameRange     '2.9.0',
+40 silly addNameRange     '2.10.0',
+40 silly addNameRange     '2.10.1',
+40 silly addNameRange     '2.10.2',
+40 silly addNameRange     '2.11.0',
+40 silly addNameRange     '2.11.1',
+40 silly addNameRange     '2.12.0',
+40 silly addNameRange     '2.13.0',
+40 silly addNameRange     '2.14.0',
+40 silly addNameRange     '2.14.1',
+40 silly addNameRange     '2.15.0',
+40 silly addNameRange     '2.16.0' ] ]
+41 verbose addNamed [ 'mysql', '2.16.0' ]
+42 verbose addNamed [ '2.16.0', '2.16.0' ]
+43 silly lockFile 57a8e392-mysql-2-16-0 mysql@2.16.0
+44 verbose lock mysql@2.16.0 /home/pi/.npm/57a8e392-mysql-2-16-0.lock
+45 silly lockFile e5109d85-npmjs-org-mysql-mysql-2-16-0-tgz https://registry.npmjs.org/mysql/-/mysql-2.16.0.tgz
+46 verbose lock https://registry.npmjs.org/mysql/-/mysql-2.16.0.tgz /home/pi/.npm/e5109d85-npmjs-org-mysql-mysql-2-16-0-tgz.lock
+47 verbose addRemoteTarball [ 'https://registry.npmjs.org/mysql/-/mysql-2.16.0.tgz',
+47 verbose addRemoteTarball   'b23b22ab5de44fc2d5d32bd4f5af6653fc45e2ba' ]
+48 info retry fetch attempt 1 at 20:10:08
+49 verbose fetch to= /tmp/npm-14034-5vKuNwfR/registry.npmjs.org/mysql/-/mysql-2.16.0.tgz
+50 http GET https://registry.npmjs.org/mysql/-/mysql-2.16.0.tgz
+51 http 200 https://registry.npmjs.org/mysql/-/mysql-2.16.0.tgz
+52 silly lockFile e5109d85-npmjs-org-mysql-mysql-2-16-0-tgz https://registry.npmjs.org/mysql/-/mysql-2.16.0.tgz
+53 silly lockFile e5109d85-npmjs-org-mysql-mysql-2-16-0-tgz https://registry.npmjs.org/mysql/-/mysql-2.16.0.tgz
+54 silly lockFile 57a8e392-mysql-2-16-0 mysql@2.16.0
+55 silly lockFile 57a8e392-mysql-2-16-0 mysql@2.16.0
+56 silly lockFile 6df78a86-mysql mysql@
+57 silly lockFile 6df78a86-mysql mysql@
+58 silly resolved [ { name: 'mysql',
+58 silly resolved     description: 'A node.js driver for mysql. It is written in JavaScript, does not require compiling, and is 100% MIT licensed.',
+58 silly resolved     version: '2.16.0',
+58 silly resolved     license: 'MIT',
+58 silly resolved     author:
+58 silly resolved      { name: 'Felix Geisendörfer',
+58 silly resolved        email: 'felix@debuggable.com',
+58 silly resolved        url: 'http://debuggable.com/' },
+58 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+58 silly resolved     repository: { type: 'git', url: 'git+https://github.com/mysqljs/mysql.git' },
+58 silly resolved     dependencies:
+58 silly resolved      { 'bignumber.js': '4.1.0',
+58 silly resolved        'readable-stream': '2.3.6',
+58 silly resolved        'safe-buffer': '5.1.2',
+58 silly resolved        sqlstring: '2.3.1' },
+58 silly resolved     devDependencies:
+58 silly resolved      { after: '0.8.2',
+58 silly resolved        eslint: '4.19.1',
+58 silly resolved        nyc: '10.3.2',
+58 silly resolved        seedrandom: '2.4.3',
+58 silly resolved        'timezone-mock': '0.0.7',
+58 silly resolved        urun: '0.0.8',
+58 silly resolved        utest: '0.0.8' },
+58 silly resolved     files: [ 'lib/', 'Changes.md', 'License', 'Readme.md', 'index.js' ],
+58 silly resolved     engines: { node: '>= 0.6' },
+58 silly resolved     scripts:
+58 silly resolved      { lint: 'eslint .',
+58 silly resolved        test: 'node test/run.js',
+58 silly resolved        'test-ci': 'nyc --reporter=text npm test',
+58 silly resolved        'test-cov': 'nyc --reporter=html --reporter=text npm test',
+58 silly resolved        version: 'node tool/version-changes.js && git add Changes.md' },
+58 silly resolved     gitHead: 'cf5d1e396a343ffa0fba23b3791d2dd5da20f30e',
+58 silly resolved     bugs: { url: 'https://github.com/mysqljs/mysql/issues' },
+58 silly resolved     homepage: 'https://github.com/mysqljs/mysql#readme',
+58 silly resolved     _id: 'mysql@2.16.0',
+58 silly resolved     _npmVersion: '5.6.0',
+58 silly resolved     _nodeVersion: '8.11.3',
+58 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+58 silly resolved     dist:
+58 silly resolved      { integrity: 'sha512-dPbN2LHonQp7D5ja5DJXNbCLe/HRdu+f3v61aguzNRQIrmZLOeRoymBYyeThrR6ug+FqzDL95Gc9maqZUJS+Gw==',
+58 silly resolved        shasum: 'b23b22ab5de44fc2d5d32bd4f5af6653fc45e2ba',
+58 silly resolved        tarball: 'https://registry.npmjs.org/mysql/-/mysql-2.16.0.tgz',
+58 silly resolved        fileCount: 60,
+58 silly resolved        unpackedSize: 428222,
+58 silly resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbTss2CRA9TVsSAnZWagAAEPYQAJDy7TmIPBatRNcx7dl1\nalHuAbLL5R86v3L5dJ0Y4Lq8oNSh1LKXa0q26osrkFRUpRBqt9wSIEvZR3os\nUzSJFaYGMdJYSDOwd8Hv/Z8KOrzjaguTgl2cZ8/8rW9IBUVaJ6xtNklgpgYz\n6sI6iUrCU/+68XtkHJ7CUh4XPMKPMyKmZoWBpAVN9kp7Yzsovo4HCxm6FCVP\nQ/A+FIXwRlhxQ6CnYxGRQrECgTH2D6kpNem//LiTTa2Egzua3mxwLZcwKxfw\nr4oH27o6KNmCjCfpkcBi0g71XphlKsrOgTsYMT8GRPN55Gpq0JD+Mn22GipM\nEeX1zC4Q15fvLeAKQpZW8yQrTHCqTUeVZ1HTqOSVV/b14ZD2gQ3AAH2Orrv2\nKpVNpAoGBuqXm6FgdD90dIdLYBNJlwOO0TpLQGWEWcavK9JsG9HNaaZzyaEP\nkTdF7QAm7x7a7vrOcF1rZZHrtrG1tszGVbnGmr5HJl9uk5lUu052DdehhJzr\neB2egsnMzpSjuqNFs1vbImy27FvvcYpnAFk7qiEr7gHDLPMFUHs73GDRhhYs\nvrpmyr74OTjybtzfcd3Yzlp35+mgSmGZ8ZfHjniwdE6q3O03N8hBhCcqWQhj\ngnJKWoSrz8tKmhXddgfC/4yQeMeN6RM8XcwCDAnI93zVOKCSnphViBTFSua9\nVFZC\r\n=oi2l\r\n-----END PGP SIGNATURE-----\r\n' },
+58 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+58 silly resolved     directories: {},
+58 silly resolved     _npmOperationalInternal:
+58 silly resolved      { host: 's3://npm-registry-packages',
+58 silly resolved        tmp: 'tmp/mysql_2.16.0_1531890486268_0.9096892717002003' },
+58 silly resolved     _shasum: 'b23b22ab5de44fc2d5d32bd4f5af6653fc45e2ba',
+58 silly resolved     _from: 'mysql@',
+58 silly resolved     _resolved: 'https://registry.npmjs.org/mysql/-/mysql-2.16.0.tgz' } ]
+59 info install mysql@2.16.0 into /home/pi/vrcworldtest
+60 info installOne mysql@2.16.0
+61 verbose node_modules/mysql unbuild
+62 verbose tar unpack /home/pi/.npm/mysql/2.16.0/package.tgz
+63 silly lockFile ac7396fa--vrcworldtest-node-modules-mysql tar:///home/pi/vrcworldtest/node_modules/mysql
+64 verbose lock tar:///home/pi/vrcworldtest/node_modules/mysql /home/pi/.npm/ac7396fa--vrcworldtest-node-modules-mysql.lock
+65 silly lockFile 608e9368--pi-npm-mysql-2-16-0-package-tgz tar:///home/pi/.npm/mysql/2.16.0/package.tgz
+66 verbose lock tar:///home/pi/.npm/mysql/2.16.0/package.tgz /home/pi/.npm/608e9368--pi-npm-mysql-2-16-0-package-tgz.lock
+67 silly gunzTarPerm modes [ '755', '644' ]
+68 error tar.unpack untar error /home/pi/.npm/mysql/2.16.0/package.tgz
+69 silly lockFile ac7396fa--vrcworldtest-node-modules-mysql tar:///home/pi/vrcworldtest/node_modules/mysql
+70 silly lockFile ac7396fa--vrcworldtest-node-modules-mysql tar:///home/pi/vrcworldtest/node_modules/mysql
+71 silly lockFile 608e9368--pi-npm-mysql-2-16-0-package-tgz tar:///home/pi/.npm/mysql/2.16.0/package.tgz
+72 silly lockFile 608e9368--pi-npm-mysql-2-16-0-package-tgz tar:///home/pi/.npm/mysql/2.16.0/package.tgz
+73 verbose node_modules/mysql unbuild
+74 error Error: EACCES: permission denied, mkdir '/home/pi/vrcworldtest/node_modules/mysql'
+74 error  { Error: EACCES: permission denied, mkdir '/home/pi/vrcworldtest/node_modules/mysql'
+74 error   errno: -13,
+74 error   code: 'EACCES',
+74 error   syscall: 'mkdir',
+74 error   path: '/home/pi/vrcworldtest/node_modules/mysql',
+74 error   fstream_type: 'Directory',
+74 error   fstream_path: '/home/pi/vrcworldtest/node_modules/mysql',
+74 error   fstream_class: 'DirWriter',
+74 error   fstream_stack:
+74 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:35:25',
+74 error      '/usr/lib/nodejs/mkdirp/index.js:46:53',
+74 error      'FSReqWrap.oncomplete (fs.js:152:21)' ] }
+75 error Please try running this command again as root/Administrator.
+76 error System Linux 4.14.50+
+77 error command "/usr/bin/node" "/usr/bin/npm" "install" "mysql"
+78 error cwd /home/pi/vrcworldtest
+79 error node -v v8.11.1
+80 error npm -v 1.4.21
+81 error path /home/pi/vrcworldtest/node_modules/mysql
+82 error syscall mkdir
+83 error fstream_path /home/pi/vrcworldtest/node_modules/mysql
+84 error fstream_type Directory
+85 error fstream_class DirWriter
+86 error code EACCES
+87 error errno -13
+88 error stack Error: EACCES: permission denied, mkdir '/home/pi/vrcworldtest/node_modules/mysql'
+89 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:35:25
+89 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:46:53
+89 error fstream_stack FSReqWrap.oncomplete (fs.js:152:21)
+90 verbose exit [ -13, true ]

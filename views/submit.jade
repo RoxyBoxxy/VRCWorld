@@ -1,0 +1,33 @@
+extends layout
+
+block content
+    // Navigation
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top
+      .container
+        a.navbar-brand(href='#') VRWorld
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item.active
+              a.nav-link(href='/')
+                | Home
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='/submit') Submit
+     #formbox
+     form(action='/post', method='POST')
+      fieldset
+        label(for='world_name') World Name: 
+        input#world_name(type='text', name='world_name')
+        br
+        label(for='world_id') World ID: 
+        input#world_id(type='text', name='world_id')
+        br
+        label(for='image_url') Image URL: 
+        input#image_url(type='text',name='image_url')
+        br
+        label(for='upload_username') Username: 
+        input#upload_username(type='text',name='upload_username', value'Anonymous')
+        br
+        input(type='submit', value='Submit World')
